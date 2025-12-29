@@ -1,3 +1,6 @@
 {
-  "installCommand": "npm install -g pnpm@8.15.0 && pnpm install"
+  "framework": null,
+  "installCommand": "npm install -g pnpm@8.15.0 && pnpm install",
+  "buildCommand": "pnpm turbo run build --filter=@pt-dashboard/admin",
+  "outputDirectory": "apps/admin/dist"
 }
