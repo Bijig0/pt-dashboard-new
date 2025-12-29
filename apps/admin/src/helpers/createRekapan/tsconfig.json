@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "forceConsistentCasingInFileNames": true,
+    "declaration": true,
+    "esModuleInterop": true,
+    "jsx": "react-jsx",
+    "strict": true,
+    "strictNullChecks": true,
+    "noUncheckedIndexedAccess": true
+  }
+}

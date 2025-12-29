@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>NSCameraUsageDescription</key>
+    <string>We need access to your camera to scan handwritten documents and tables.</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>We need access to your photo library to select images for text recognition.</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>We need access to save scanned images to your photo library.</string>
+    <key>UILaunchScreen</key>
+    <dict>
+        <key>UIColorName</key>
+        <string></string>
+        <key>UIImageName</key>
+        <string></string>
+    </dict>
+    <key>CFBundleDisplayName</key>
+    <string>Handwriting Scanner</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.handwritingscanner.app</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0</string>
+</dict>
+</plist>

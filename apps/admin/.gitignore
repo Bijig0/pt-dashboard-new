@@ -1,0 +1,15 @@
+dist
+node_modules
+tsconfig.tsbuildinfo
+yarn-error.log
+
+# Sentry Config File
+.env.sentry-build-plugin
+
+*storybook.log
+
+# Stok alat uploader data files
+src/script/stok-alat-uploader/csv-output/
+src/script/stok-alat-uploader/excel-input/
+src/script/convert-masuk-alat-excel-files-to-csv/csv-output/
+src/script/convert-masuk-alat-excel-files-to-csv/excel-input/

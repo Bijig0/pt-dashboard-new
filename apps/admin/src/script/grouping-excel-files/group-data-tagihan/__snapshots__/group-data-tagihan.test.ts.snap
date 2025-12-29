@@ -1,0 +1,59 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`group-data-tagihan > should work for the normal one 1`] = `
+{
+  "Data Tagihan": [
+    [
+      "TGL",
+      "X",
+      "X",
+      "X",
+      "X",
+      "X",
+      "X",
+      "X",
+    ],
+    [
+      2024-01-03T00:00:00.000Z,
+      "0002/PPA-I/24",
+      "010.004-24.96145380",
+      "JO.TOTAL-SHIMIZU ADR APARTMENT AND OFFICE",
+      "ADR 1",
+      "SEWA 1 OKT 2023 SD 31 OKT 2023",
+      36983650,
+      4068201,
+    ],
+    [
+      2024-01-03T00:00:00.000Z,
+      "0003/PPA-I/24",
+      "010.004-24.96145381",
+      "JO.TOTAL-SHIMIZU ADR APARTMENT AND OFFICE",
+      "ADR 2",
+      "SEWA 1 OKT 2023 SD 31 OKT 2023",
+      21242200,
+      2336642,
+    ],
+    [],
+    [
+      2024-01-05T00:00:00.000Z,
+      "0005/PPA-I/24",
+      "010.004-24.96145383",
+      "ACSET INDONUSA",
+      "GENOVA",
+      "SEWA 1 MEI 2023 SD 31 OKT 2023",
+      161844555,
+      17802901,
+    ],
+    [
+      2024-01-05T00:00:00.000Z,
+      "0006/PPA-I/24",
+      "010.004-24.96145384",
+      "ACSET INDONUSA",
+      "THAMRIN NINE",
+      "SEWA 30 JUNI SD 30 NOV 2023",
+      14230475,
+      1565352,
+    ],
+  ],
+}
+`;

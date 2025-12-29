@@ -1,0 +1,12 @@
+So in the tests where you're comparing and expecting with an existing excel file,
+
+you will see there is an expect.toMatchSnapshot with the existing excel file.
+
+This is to ensure that the test will always run against the hardcoded existing excel file.
+
+Otherwise, say you re-run the function but the function produces a bad excel file, well the bad excel file
+overwrites the new excel file but the bad excel file is the same output as the output of the code that produces that bad excel file, so an expect to be equal shows a pass even though it's a bad excel file.
+
+So this is to prevent any accidental shit
+
+The snapshot ensures that the test are always run against the existing CORRECT excel file

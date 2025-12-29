@@ -1,0 +1,16 @@
+{
+  "name": "pt-dashboard",
+  "private": true,
+  "workspaces": ["apps/*", "packages/*"],
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "dev:admin": "turbo run dev --filter=@pt-dashboard/admin",
+    "dev:scanner": "turbo run dev --filter=@pt-dashboard/scanner"
+  },
+  "devDependencies": {
+    "turbo": "^2.0.0"
+  },
+  "packageManager": "pnpm@8.15.0"
+}

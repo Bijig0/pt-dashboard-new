@@ -1,0 +1,1 @@
+{"version":3,"file":"cleanWorksheetName.js","sourceRoot":"","sources":["../../cleanWorksheetName.ts"],"names":[],"mappings":";;AAAA,SAAS,kBAAkB,CAAC,GAAW;IACrC,qEAAqE;IACrE,kDAAkD;IAElD,8GAA8G;IAE9G,IAAM,KAAK,GAAG,gBAAgB,CAAC;IAE/B,mDAAmD;IACnD,IAAM,UAAU,GAAG,GAAG,CAAC,OAAO,CAAC,KAAK,EAAE,GAAG,CAAC,CAAC;IAE3C,OAAO,UAAU,CAAC;AACpB,CAAC;AAED,kBAAe,kBAAkB,CAAC"}
