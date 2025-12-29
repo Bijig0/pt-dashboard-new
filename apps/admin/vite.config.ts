@@ -12,14 +12,14 @@ export default defineConfig({
     react(),
     nodePolyfills(),
     tsconfigPaths(),
-    sentryVitePlugin({
-      org: "swiftqu",
-      project: "pt-dashboard",
-      // Auth tokens can be obtained from https://sentry.io/orgredirect/organizations/:orgslug/settings/auth-tokens/
-      // Token is read from .env.sentry-build-plugin file automatically
-      authToken: process.env.SENTRY_AUTH_TOKEN,
-    }),
-  ],
+    // Only use Sentry plugin if auth token is available
+    process.env.SENTRY_AUTH_TOKEN &&
+      sentryVitePlugin({
+        org: "swiftqu",
+        project: "pt-dashboard",
+        authToken: process.env.SENTRY_AUTH_TOKEN,
+      }),
+  ].filter(Boolean),
   build: {
     sourcemap: true,
     target: "ES2022",
